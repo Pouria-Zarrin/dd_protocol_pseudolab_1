@@ -1,0 +1,1 @@
+python morgan_fp.py --smile_folder_path ../../all_smiles/all_smiles_txt --folder_name ../../morgan_library --tot_process 2

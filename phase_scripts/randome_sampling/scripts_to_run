@@ -1,0 +1,5 @@
+python phase_scripts/randome_sampling/molecular_file_count_updated.py --project_name iteration_1 --n_iteration 1 --data_directory morgan_library --tot_process 2 --tot_sampling  1000
+python phase_scripts/randome_sampling/sampling.py --project_name  project_0 --file_path projects --n_iteration 1 --data_directory morgan_library --tot_process 2 --train_size 800 --val_size 100
+python phase_scripts/randome_sampling/sanity_check.py  --project_name project_0 --file_path projects --n_iteration 1
+python phase_scripts/randome_sampling/extracting_morgan.py --project_name project_0 --file_path projects --n_iteration 1 --morgan_directory morgan_library --tot_process 2
+python phase_scripts/randome_sampling/extracting_smiles.py --project_name project_0 --file_path projects --n_iteration 1 --smile_directory smiles_of_morgan_converted --tot_process 2

@@ -1,0 +1,4 @@
+python phase_scripts/ligand_prep/prepare_ligands.py --input <input_path> --output_dir <output_directory>
+
+
+python phase_scripts/ligand_prep/prepare_ligands.py --input projects/project_0/iteration_1/smile --output_dir projects/project_0/iteration_1/smile
