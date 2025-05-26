@@ -1,0 +1,3 @@
+python phase_scripts/run_model_training_bash/run_all_bash_scripts.py --path_to_scripts <your_simple_job_dir> --progressive_docking_path <absolute/or/relative/path/to/progressive_docking.py> --max_workers 4
+
+python phase_scripts/run_model_training_bash/run_all_bash_scripts.py --path_to_scripts projects/project_0/iteration_1/simple_job --progressive_docking_path original_DD_Protocol/scripts_2/progressive_docking.py --max_workers 4

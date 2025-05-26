@@ -1,0 +1,7 @@
+python original_DD_Protocol/scripts_2/extract_labels.py \
+  --project_name project_0 \
+  --file_path projects \
+  --iteration_no 1 \
+  --tot_process 4 \
+  --score REMARK \
+  --docking_dir projects/project_0/iteration_1/smile/docking_results

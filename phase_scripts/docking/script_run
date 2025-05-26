@@ -1,3 +1,6 @@
 python vina_docking.py --original_protein_path <protein.pdb> --ligand_resname <LIG> --box_expansion 4.0 --fixed_protein_pdbqt <receptor.pdbqt> --ligands_pdbqt_dir <input_dir> --output_dir <output_dir>
 
 python phase_scripts/docking/vina_docking.py --original_protein_path phase_scripts/preparing_protein/original_protein_from_pdb.pdb --ligand_resname BAX --box_expansion 4.0 --fixed_protein_pdbqt phase_scripts/preparing_protein/pdbqt/fixed_protein.pdbqt --ligands_pdbqt_dir projects/project_0/iteration_1/smile/docking_ready --output_dir projects/project_0/iteration_1/smile/docking_results 
+
+# script for the single directory docking test
+python phase_scripts/docking/vina_docking_test.py --original_protein_path phase_scripts/preparing_protein/original_protein_from_pdb.pdb --ligand_resname BAX --box_expansion 4.0 --fixed_protein_pdbqt phase_scripts/preparing_protein/pdbqt/fixed_protein.pdbqt --ligands_pdbqt_dir projects/project_0/iteration_1/smile/docking_ready/docking_ready_pdbqt_train --output_dir projects/project_0/iteration_1/smile/docking_results 

@@ -1,0 +1,4 @@
+python hyperparameter_result_evaluation.py --n_iteration current_iteration --data_path path_project/project --morgan_directory path_morgan_library/morgan_library --number_mol num_molecules --recall recall_value
+
+
+python original_DD_Protocol/scripts_2/hyperparameter_result_evaluation.py --n_iteration 1 --data_path projects/project_0 --morgan_directory morgan_library --number_mol 21000000 --recall 0.9

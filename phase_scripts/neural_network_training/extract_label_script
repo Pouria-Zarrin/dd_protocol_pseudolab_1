@@ -1,4 +1,0 @@
-python extract_labels.py --project_name project --file_path path_to_project --iteration_no current_iteration --tot_process num_cpus -score score_keyword
-
-
-python extract_labels.py --project_name project_0 --file_path projects/project_0 --iteration_no 1 --tot_process 4 -score REMARK

@@ -1,0 +1,2 @@
+python phase_scripts/check_prepared_ligands/check_pdbqt_validity.py --ligands_pdbqt_dir projects/smile/dockin_ready
+

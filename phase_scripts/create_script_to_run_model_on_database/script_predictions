@@ -1,0 +1,10 @@
+python original_DD_Protocol/scripts_2/simple_job_predictions_manual.py --project_name project_0 --file_path projects --n_iteration 1 --morgan_directory morgan_library
+
+python phase_scripts/create_script_to_run_model_on_database/run_all_simple_jobs.py \
+  --project project_0 \
+  --iteration 1 \
+  --protein phase_scripts/preparing_protein/pdbqt/fixed_protein.pdbqt \
+  --morgan_library morgan_library \
+  --file_path projects/project_0 \
+  --python_file original_DD_Protocol/scripts_2/Prediction_morgan_1024.py \
+  --max_workers 4
